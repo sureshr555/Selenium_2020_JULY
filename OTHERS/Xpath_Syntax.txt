@@ -1,0 +1,13 @@
+
+
+
+
+
+XPATH's
+
+//tagname[@attributename='attributeValue']
+//tagname[text()='full text here']
+//tagname[contains(@attributename='attributeValue')]
+//tagname[contains(text(),'half text here)]
+(//tagname[@attributename='attributeValue'])[1]
+//tagname[normalize-space(text())='who cares about spaces']
